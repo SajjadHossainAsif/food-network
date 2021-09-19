@@ -19,9 +19,7 @@ span {
     width: 50%;
     padding-left: 3%;
     padding-top: 2%;
-    padding-bottom: 2%;
-    
-
+  
 }
 .half-width img{
     width: 80%;
@@ -49,4 +47,82 @@ span {
     font-size: 31px;
     margin-top: 8%;
     color: gray;
+}
+.recipies-section{
+    width: 65%;
+    margin: auto;
+}
+.food-item h3{
+    text-align: center;
+    font-size: 35px;
+    color: gray;    
+}
+.recipie-area {
+    display: flex;
+}
+.my-recipie {
+    width: 22%;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding: 2% 2%;
+    margin-bottom: 150px;
+    box-shadow: 5px 8px 30px #bbbbbb;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.my-recipie h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.my-recipie img {
+    width: 100%;
+}
+
+.peopleData {
+    display: flex;
+    width: 78%;
+    margin: auto;
+    text-align: center;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.2);
+  }
+  .peopleData h1 {
+    font-size: 50px;
+    color: black;
+    margin: 0px;
+  }
+  .peopleData p {
+    color: black;
+    margin: 0px;
+  }
+ 
+  .peopleData span {
+    width: 33%;
+    align-self: center;
+  }
+
+footer{
+    background-color: #0B0D17;
+    margin-top: 95px;
+}
+footer h2{
+    text-align: center;
+    color: #5B5B5B;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 0;
+    
 }
